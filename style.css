@@ -4,17 +4,39 @@ body{
 
 nav{
     height: 60px;
-    background-color: aqua;
+    background-color: rgb(158, 255, 255);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 100px 0 50px;
-    margin-bottom: 2px;
+    border-bottom: 3px solid #7383bf;
+}
+
+nav div:nth-child(1){
+    display: flex;
+    align-items: center;
 }
 
 nav div:nth-child(1) img{
     height: 45px;
     width: auto;
+}
+
+nav div:nth-child(1) h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #191970;
+    font-size: 18pt;
+    display: inline;
+    margin: 0;
+}
+
+#h1Front{
+    padding-right: 10px;
+}
+
+#h1Travels{
+    padding-left: 5px;
 }
 
 nav div:nth-child(2){
@@ -24,7 +46,7 @@ nav div:nth-child(2){
 }
 
 nav div:nth-child(2) a{
-    color: white;
+    color: #191970;
     text-decoration: none;
     font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,17 +57,17 @@ body section:nth-child(2){
     height: 300px;
     background-image: url("images/banner.jpg");
     background-size: cover;
-    background-position-y: 90%;
+    background-position-y: 40%;
 }
 
 .informativo{
     display: flex;
-    padding-left: 50px;
+    padding: 0 50px;
     height: 400px;
 }
 
-.informativo div:nth-child(2) img{
-    width: 400px;
+.informativo img{
+    width: auto;
     height: 300px;
 }
 
@@ -67,4 +89,5 @@ body section:nth-child(2){
 .informativo h2{
     color: darkgreen;
     font-size: 26pt;
+    margin: 0;
 }
