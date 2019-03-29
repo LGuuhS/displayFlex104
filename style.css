@@ -4,12 +4,12 @@ body{
 
 nav{
     height: 60px;
-    background-color: rgb(158, 255, 255);
+    background-color: #7fffd4;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 100px 0 50px;
-    border-bottom: 3px solid #7383bf;
+    border-bottom: 3px solid #3d6f44;
 }
 
 nav div:nth-child(1){
@@ -25,8 +25,8 @@ nav div:nth-child(1) img{
 nav div:nth-child(1) h1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
-    color: #191970;
-    font-size: 18pt;
+    color: #3d6f44;
+    font-size: 12pt;
     display: inline;
     margin: 0;
 }
@@ -46,9 +46,9 @@ nav div:nth-child(2){
 }
 
 nav div:nth-child(2) a{
-    color: #191970;
+    color: #3d6f44;
     text-decoration: none;
-    font-size: 14pt;
+    font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -81,13 +81,53 @@ body section:nth-child(2){
 }
 
 .informativo p{
-    color: #333333;
+    color: #555555;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 13pt;
 }
 
 .informativo h2{
-    color: darkgreen;
+    color: #3d6f44;
     font-size: 26pt;
     margin: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7fffd4;
+    height: 200px;
+}
+
+footer div:nth-child(1) img{
+    height: 30px;
+    width: auto;
+    margin: 0 5px;
+}
+
+#face{
+    background-color: #4267b2;
+    padding: 10px;
+}
+
+#insta{
+    background-color: #f00075;
+    padding: 10px;
+}
+
+#twitter{
+    background-color: #00b3e1;
+    padding: 10px;
+}
+
+#youtube{
+    background-color: #ff0000;
+    padding: 10px;
+}
+
+footer div:nth-child(2) p{
+    color: #555555;
+    margin-bottom:0; 
 }
